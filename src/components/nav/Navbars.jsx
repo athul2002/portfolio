@@ -7,10 +7,10 @@ const Navbars = () => {
   const[activeNav,setActiveNav]=useState('#')
     return(
     <nav>
-      <a href="#" className={activeNav==='#'?'active':''}><AiOutlineHome/></a>
-      <a href="#about" onClick={()=>setActiveNav('#about')}className={activeNav==='#about'?'active':''}><AiOutlineUser/></a>
-      <a href="#experience" onClick={()=>setActiveNav('#experience')}className={activeNav==='#experience'?'active':''}><BiBook/></a>
-      <a href="#contact" onClick={()=>setActiveNav('#contact')}className={activeNav==='#contact'?'active':''}><BiMessageSquareDetail/></a>
+      <a href="#" className={activeNav==='#'?'active':''} onClick={()=>setActiveNav('#')}><AiOutlineHome/></a>
+      <a href="#about" className={activeNav==='#about'?'active':''} onClick={()=>setActiveNav('#about')}><AiOutlineUser/></a>
+      <a href="#experience" className={activeNav==='#experience'?'active':''} onClick={()=>setActiveNav('#experience')}><BiBook/></a>
+      <a href="#contact" className={activeNav==='#contact'?'active':''} onClick={()=>setActiveNav('#contact')}><BiMessageSquareDetail/></a>
     </nav>
     );
 };
