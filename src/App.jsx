@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './components/header/Header'
-import Navbar from './components/nav/Navbar'
+import Navbars from './components/nav/Navbars'
 import About from './components/about/About'
 import Experience from './components/experience.jsx/Experience'
 import Portfolio from './components/portfolio/Portfolio'
@@ -11,7 +11,7 @@ const app = () => {
   return (
     <div>
       <Header/>
-      <Navbar/>
+      <Navbars/>
       <About/>
       <Experience/>
       <Portfolio/>
