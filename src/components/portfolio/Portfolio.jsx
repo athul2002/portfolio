@@ -17,7 +17,7 @@ const data=[
     title:'Portfolio',
     description:'My Portfolio generated using React',
     github:'https://github.com/athul2002/portfolio',
-    demo:'',
+    demo:'https://athul-portfolio-site.netlify.app/',
   },
   {
     id:2,
