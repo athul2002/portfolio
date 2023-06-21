@@ -3,7 +3,9 @@
     grid-template-columns: 35% 50%;
     gap: 15%;
 }
-
+.about_cards a{
+    color: var(--color-white);
+}
 .about_me{
     width: 100%;
     aspect-ratio: 1/1;
@@ -19,6 +21,7 @@
 }
 
 .about_me-image{
+    /* height: 50rem; */
     border-radius: 2rem;
     overflow: hidden;
     transform: rotate(10deg);

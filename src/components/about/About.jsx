@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/me-about.jpeg'
 import {FaAward} from 'react-icons/fa'
 import {VscFolderLibrary} from 'react-icons/vsc'
 const About = () => {
@@ -17,6 +17,7 @@ const About = () => {
         </div>
         <div className="about_content">
           <div className="about_cards">
+            <a href="#experience">
             <article className='about_card'>
               <FaAward className='about_icon'/>
               <h5>
@@ -24,6 +25,8 @@ const About = () => {
               </h5>
               <small>1+ Years</small>
             </article>
+            </a>
+            <a href="#portfolio">
             <article className='about_card'>
               <VscFolderLibrary className='about_icon'/>
               <h5>
@@ -31,9 +34,13 @@ const About = () => {
               </h5>
               <small>10+</small>
             </article>
+            </a>
           </div>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio aperiam pariatur voluptates repudiandae et dolorem tempore. A inventore natus, quis optio, sed repellendus sequi fugiat corrupti itaque cupiditate tenetur numquam.
+            An Undergrad from Indian Institute of Technology , Patna.
+A motivated, hardworking individual who is passionate about problem solving and an enthusiastic learner who is always on the lookout for new opportunities.
+Trying to bring out the best version of myself.
+Looking to connect with professionals in the tech industry and explore new opportunities
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Connect</a>
         </div>

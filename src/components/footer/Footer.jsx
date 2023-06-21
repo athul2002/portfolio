@@ -16,9 +16,9 @@ const Footer = () => {
           <li><a href="#contact">Contact</a></li>
         </ul>
         <div className="footer_socials">
-          <a href="https://facebook.com"><FaFacebookF/></a>
-          <a href="https://facebook.com"><FiInstagram/></a>
-          <a href="https://facebook.com"><BsWhatsapp/></a>
+          <a href="https://www.facebook.com/athul.krishna.714" target='_blank' rel="noreferrer"><FaFacebookF/></a>
+          <a href="https://www.instagram.com/athul_maliyakkal/"target='_blank' rel="noreferrer"><FiInstagram/></a>
+          <a href="https://api.whatsapp.com/send?phone=9947107295" target='_blank' rel="noreferrer"><BsWhatsapp/></a>
         </div>
         <div className="footer_copyright">
           <small>&copy; Athul. All rights reserved.</small>

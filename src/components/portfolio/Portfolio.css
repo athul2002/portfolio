@@ -19,15 +19,18 @@
 .portfolio_item-image{
     border-radius: 1.5rem;
     overflow: hidden;
+    /* height: 200px; */
 }
 
 .portfolio_item h3{
-    margin: 1.2rem 0 2rem;
+    margin: 1rem 0 0.3rem;
+    margin-bottom: 0.2rem;
 }
 
 .portfolio_item-cta{
     display: flex;
     gap: 1rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
@@ -43,4 +46,8 @@
         grid-template-columns: 1fr;
         gap: 1rem;
     }
+}
+.portfolio_container small{
+    color: var(--color-light);
+    /* margin-bottom: 2rem; */
 }
