@@ -25,7 +25,6 @@ header{
     position: absolute;
     left: 0;
     bottom: 3rem;
-    /* justify-content: flex-start; */
 }
 
 .header_socials::after{
@@ -72,15 +71,6 @@ header{
         display: none;
     }
     .me{
-        /* background: linear-gradient(var(--color-primary),transparent) ;
-        width: 22rem;
-        height: 30rem;
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        margin-top: 2rem;
-        border-radius: 12rem 12rem 0 0;
-        overflow: hidden; */
         padding: 5rem 1.5rem 0rem 1.5rem;
     }
     

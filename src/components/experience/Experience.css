@@ -1,18 +1,16 @@
-/* #experience{
-    margin-top: 15rem;
-} */
+
 .experience_container{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    /* tra */
+
 }
 
 .experience_container>div{
     background:var(--color-bg-variant);
     padding: 2.4rem 5rem;
     border-radius: 2rem;
-    /* padding: ; */
+
     border: 1px solid transparent;
     transition: var(--transition);
 }
