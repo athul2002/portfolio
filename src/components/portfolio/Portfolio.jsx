@@ -9,8 +9,17 @@ import IMG6 from '../../assets/portfolio6.jpg'
 import IMG7 from '../../assets/portfolio7.jpg'
 import IMG8 from '../../assets/portfolio8.png'
 import IMG9 from '../../assets/portfolio9.jpg'
+import IMG10 from '../../assets/portfolio10.jpg'
 
 const data=[
+  {
+    id:10,
+    image:IMG10,
+    title:'Ecommerce Website',
+    description:'An fullstack ecommerce website for buying products',
+    github:'https://github.com/athul2002/ecommerce-website',
+    demo:'https://ecommerce-website-j75d.onrender.com/',
+  },
   {
     id:1,
     image:IMG1,
